@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: auto;
+  margin-left: auto;
+  height: 100vh;
+  font-family: Open Sans, "Helvetica Neue", sans-serif;
+  background-image: url(/station.png);
+  text-align: center;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: aliceblue;
+}
+
+.container {
+  background-image: url(/Beauty-rain.png);
+  background-size: cover;
+  width: 500px;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: white;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.fit {
+  background-color: white;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 15px;
+  height: 50%;
+  box-shadow: 2px 2px 4px red;
+  border: 4px solid black;
+}
+
+h1 {
+  padding: 0 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: blue;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px black;
+}
+#count-el {
+  font-weight: bolder;
+  font-size: 50px;
+  color: skyblue;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px black;
+}
+button {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  margin: 20px auto;
+  width: 200px;
+  border-radius: 10px;
+}
+#entries-el {
+  margin-top: 20px;
+  color: bisque;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-weight: bold;
+  background-image: url(station.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 5px;
+  border-radius: 10px;
+  box-shadow: -2px 2px 4px red;
+}
+#increment-el {
+  background-color: red;
+  color: rgb(103, 23, 176);
+}
+#save-el {
+  background-color: blue;
+  color: blanchedalmond;
+  margin-bottom: 15px;
+}
